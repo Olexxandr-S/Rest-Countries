@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <title>REST Countries API</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>REST Countries API</h1>
+    <div class="choice_block">
+      <div class="region_block">
+        <h2>REGION</h2>
+        <select id="region" required="required">
+          <option value="" disabled hidden selected>Pick a region</option>
+        </select>
+      </div>
+      <div class="subregion_block">
+        <h2>SUBREGION</h2>
+        <select required="required" id="subregion"></select>
+      </div>
+    </div>
+    <div id="countriesContainer">
+      <div id="countries"></div>
+      <div id="countriesInfo"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
