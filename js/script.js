@@ -79,7 +79,7 @@ subregionSelect.addEventListener("change", (event) => {
     flag.alt = `${country.name.common}'s flag`;
     flag.src = `${
       country.name.common == "Russia" || country.name.common == "Belarus"
-        ? pirateFlag
+        ? "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Pirate_Flag_of_Jack_Rackham.svg/744px-Pirate_Flag_of_Jack_Rackham.svg.png"
         : country.flags.png
     }`;
 
