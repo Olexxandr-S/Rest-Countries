@@ -1,4 +1,3 @@
-const pirateFlag = "../images/Pirate_Flag.png";
 const regionSelect = document.querySelector("#region");
 const subregionSelect = document.querySelector("#subregion");
 const countriesDiv = document.querySelector("#countries");
