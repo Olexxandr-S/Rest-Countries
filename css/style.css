@@ -111,3 +111,16 @@ img {
   text-decoration: none;
   color: wheat;
 }
+
+@media screen and (max-width: 999px) {
+  .choice_block {
+    display: block;
+  }
+  .region_block,
+  .subregion_block {
+    display: block;
+  }
+  #countriesContainer {
+    display: block;
+  }
+}
